@@ -1,0 +1,55 @@
+@font-face {
+  font-family: font;
+  src: url("../font/RobotoSlab-Bold.ttf");
+}
+* {
+  font-family: font;
+}
+
+@keyframes table {
+  from {
+    background-color: rgba(13, 165, 165, 0.089);
+  }
+  to {
+    background-color: rgba(13, 165, 165, 0.26);
+  }
+}
+@keyframes body {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body {
+  background-color: rgba(13, 165, 165, 0.11);
+  animation: body 1s ease-in-out 0s 1 alternate forwards;
+}
+body table,
+body tr,
+body .game {
+  border: 5px solid rgb(58, 58, 58);
+  border-collapse: collapse;
+  height: 10rem;
+  width: 23rem;
+  cursor: pointer;
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  background-color: rgba(13, 165, 165, 0.089);
+  animation: table 2s ease-in-out 0s infinite alternate forwards;
+}
+body .btn-outline-black {
+  border: 2px solid black;
+  border-radius: 7px;
+  padding: 5px 10px;
+}
+body .btn-outline-black:hover {
+  background-color: black;
+  color: white;
+  transition: 0.2s;
+  transform: scale(1.08);
+}
+
+/*# sourceMappingURL=style.css.map */

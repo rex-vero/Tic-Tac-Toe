@@ -1,0 +1,19 @@
+@keyframes table {
+    from {
+        background-color: rgba(13, 165, 165, 0.089);
+    }
+
+    to {
+        background-color: rgba(13, 165, 165, 0.26);
+    }
+}
+
+@keyframes body {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
